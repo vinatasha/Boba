@@ -1,0 +1,96 @@
+.jumbotron{
+	background-image: url(jumbotron.png);
+	background-size: cover;
+	height: 640px;
+	text-align: center;
+}
+
+.jumbotron .display-4{
+	margin-top: 200px;
+}
+.display-4{
+	font-family: 
+}
+.lead{
+	text-align: center;
+}
+
+
+#row{
+	font-family: Ink Free;
+	
+}
+
+.list-group-item{
+	background-color:dark;
+	font-family: Century Gothic;
+	font-size: 17px;
+	color: #354f70;
+}
+
+#title{
+	font-family: Goudy Stout;
+	color: #85b1c9;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size:30px;
+}
+
+#au{
+	font-family: Comic Sans MS;
+	color: #3d3312;
+}
+#judul{
+	font-size: 40px;
+	font-family: Forte;
+	color: #3d3312;
+}
+#desc{
+	font-family: Comic Sans MS;
+	color: #8f8153;
+}
+
+.mb-0{
+	font-family: Comic Sans MS;
+	font-size: 40px;
+}
+
+.text-uppercase{
+	font-family: Comic Sans MS;
+	color: #cfe8e5;
+	font-size: 20px;
+}
+
+#sry{
+	color: #ffffff;
+}
+
+/* DESKTOP VERSION */  
+@media (min-width: 992px){
+	.nav-link{
+		text-transform: uppercase;
+		margin-right:30px;
+}
+	.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid #0B63DC;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+	}
+	.jumbotron{
+		margin-top: -200px;
+	}
+	.img-fluid{
+		width: 350px;
+	}
+	#title{
+	font-size:50px;
+	}
+	#au{
+		font-size:20px;
+	}
+}
